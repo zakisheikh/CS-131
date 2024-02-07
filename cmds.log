@@ -1,0 +1,111 @@
+    1  wget www.github.com
+    2  ls
+    3  ls help
+    4  help
+    5  help ls
+    6  mkdir sampleProject
+    7  l
+    8  ls
+    9  ls -ltr
+   10  cd sampleProject/
+   11  touch sampleFile.txt
+   12  git init
+   13  git add
+   14  git add .
+   15  git status
+   16  git config --user.email "zshake21@gmail.com"
+   17  git config --global user.email "zshake21@gmail.com"
+   18  git config --global user.name "zakisheikh"
+   19  cd ~/.ssh && ssh-keygen
+   20  mkdir ~/.ssh
+   21  cat id_rsa.pub
+   22  ls
+   23  cd/
+   24  cd /
+   25  cd ~/.ssh && ssh-keygen
+   26  cat id_rsa/pub
+   27  cat id_rsa.pub
+   28  cat id_rsa.pub.pub
+   29  vim id_rsa
+   30  ls
+   31  rm cat id_rsa.pub.pub
+   32  rm id_rsa.pub.pub
+   33  ;s
+   34  ls
+   35  help
+   36  ssh-keygen
+   37  ls
+   38  ssh-keygen
+   39  ls
+   40  ssh-keygen
+   41  ls
+   42  cd id_rsa
+   43  cat id_rsa
+   44  ls 
+   45  rm all
+   46  rm -r
+   47  rm --help
+   48  rm -r
+   49  rm -r .ssh
+   50  rm -r /.sshr
+   51  ls
+   52  rm -r id_rsa
+   53  ls
+   54  rm -r id_rsa.pub
+   55  rm -r id_rsa.pub.pub
+   56  ls
+   57  rm -r cat id_rsa.pub
+   58  rm -r "cat id_rsa.pub"
+   59  rm -r "cat id_rsa.pub.pub"
+   60  ls
+   61  ssh-keygen[2~[B
+   62  ls
+   63  cat id_rsa.pub
+   64  git remote add orgin git@github.com:<zakisheikh>/<CS131>.git
+   65  git remote add orgin git@github.com:zakisheikh/CS131.git
+   66  git remote add orgin zshake21@gmail.com:zakisheikh/CS131.git
+   67  git remote add orgin git@github.com:zakisheikh/CS131.git
+   68  git remote add origin git@github.com:zakisheikh/CS131.git
+   69  git remote add origin git@github.com:zakisheikh/CS-131.git
+   70  cd
+   71  git remote add origin git@github.com:zakisheikh/CS-131.git
+   72  ls
+   73  cd sampleProject
+   74  ls
+   75  git status
+   76  git remote add origin git@github.com:zakisheikh/CS-131.git
+   77  git commit -m "test commit ibm vm"
+   78  git status
+   79  git push --set-upstream origin main
+   80  git push --set-upstream origin master
+   81  git status
+   82  cat sampleFile.txt 
+   83  vim
+   84  vim sampleFile.txt 
+   85  cat sampleFile.txt 
+   86  git commit -m "new text"
+   87  git add 
+   88  git commit -a
+   89  git commit -m "new text"
+   90  git add sampleFile.txt
+   91  git status
+   92  git commit -m "new text"
+   93  git push --set-upstream origin master
+   94  git push
+   95  git commit
+   96  git remote
+   97  log ogg
+   98  exit
+   99  cd
+  100  help
+  101  exit
+  102  logout
+  103  cd
+  104  ls
+  105  passwd
+  106  ls sampleProject
+  107  cd sampleProject
+  108  ls
+  109  mkdir "Worksheet1"
+  110  ls
+  111  history > cmds.log
