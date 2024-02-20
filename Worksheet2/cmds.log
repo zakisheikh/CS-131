@@ -257,3 +257,52 @@
   257  git add cmds.log
   258  git add 'cmds.log'
   259  history > cmds.log
+  260  git commit
+  261  git add cmds.log
+  262  git commit -m "Add WS2"
+  263  git push
+  264  git status
+  265  git add counts.txt
+  266  ls
+  267  cd
+  268  ls
+  269  git add counts.txt
+  270  cd sampleProject
+  271  ls
+  272  cd Worksheet2
+  273  git add counts.txt
+  274  cd
+  275  git add counts.txt
+  276  ls
+  277  cd sampleProject
+  278  git add counts.txt
+  279  cd
+  280  ls
+  281  mv counts.txt sampleProject/Worksheet2
+  282  git add counts.txt
+  283  cd
+  284  ls
+  285  cd sampleProject
+  286  ls
+  287  cd Worksheet2
+  288  git add counts.txt
+  289  git commit -m "adding the counts for lines"
+  290  git push
+  291  git status
+  292  rm cmds.log
+  293  history > cmds.log
+  294  ls
+  295  rm cmds.log
+  296  ls
+  297  git commit
+  298  git push
+  299  git status
+  300  git add/rm
+  301  ait rm
+  302  git rm
+  303  git rm cmds.log 
+  304  git push
+  305  git statis
+  306  git status
+  307  ls
+  308  history > cmds.log
