@@ -1,0 +1,259 @@
+    1  wget www.github.com
+    2  ls
+    3  ls help
+    4  help
+    5  help ls
+    6  mkdir sampleProject
+    7  l
+    8  ls
+    9  ls -ltr
+   10  cd sampleProject/
+   11  touch sampleFile.txt
+   12  git init
+   13  git add
+   14  git add .
+   15  git status
+   16  git config --user.email "zshake21@gmail.com"
+   17  git config --global user.email "zshake21@gmail.com"
+   18  git config --global user.name "zakisheikh"
+   19  cd ~/.ssh && ssh-keygen
+   20  mkdir ~/.ssh
+   21  cat id_rsa.pub
+   22  ls
+   23  cd/
+   24  cd /
+   25  cd ~/.ssh && ssh-keygen
+   26  cat id_rsa/pub
+   27  cat id_rsa.pub
+   28  cat id_rsa.pub.pub
+   29  vim id_rsa
+   30  ls
+   31  rm cat id_rsa.pub.pub
+   32  rm id_rsa.pub.pub
+   33  ;s
+   34  ls
+   35  help
+   36  ssh-keygen
+   37  ls
+   38  ssh-keygen
+   39  ls
+   40  ssh-keygen
+   41  ls
+   42  cd id_rsa
+   43  cat id_rsa
+   44  ls 
+   45  rm all
+   46  rm -r
+   47  rm --help
+   48  rm -r
+   49  rm -r .ssh
+   50  rm -r /.sshr
+   51  ls
+   52  rm -r id_rsa
+   53  ls
+   54  rm -r id_rsa.pub
+   55  rm -r id_rsa.pub.pub
+   56  ls
+   57  rm -r cat id_rsa.pub
+   58  rm -r "cat id_rsa.pub"
+   59  rm -r "cat id_rsa.pub.pub"
+   60  ls
+   61  ssh-keygen[2~[B
+   62  ls
+   63  cat id_rsa.pub
+   64  git remote add orgin git@github.com:<zakisheikh>/<CS131>.git
+   65  git remote add orgin git@github.com:zakisheikh/CS131.git
+   66  git remote add orgin zshake21@gmail.com:zakisheikh/CS131.git
+   67  git remote add orgin git@github.com:zakisheikh/CS131.git
+   68  git remote add origin git@github.com:zakisheikh/CS131.git
+   69  git remote add origin git@github.com:zakisheikh/CS-131.git
+   70  cd
+   71  git remote add origin git@github.com:zakisheikh/CS-131.git
+   72  ls
+   73  cd sampleProject
+   74  ls
+   75  git status
+   76  git remote add origin git@github.com:zakisheikh/CS-131.git
+   77  git commit -m "test commit ibm vm"
+   78  git status
+   79  git push --set-upstream origin main
+   80  git push --set-upstream origin master
+   81  git status
+   82  cat sampleFile.txt 
+   83  vim
+   84  vim sampleFile.txt 
+   85  cat sampleFile.txt 
+   86  git commit -m "new text"
+   87  git add 
+   88  git commit -a
+   89  git commit -m "new text"
+   90  git add sampleFile.txt
+   91  git status
+   92  git commit -m "new text"
+   93  git push --set-upstream origin master
+   94  git push
+   95  git commit
+   96  git remote
+   97  log ogg
+   98  exit
+   99  cd
+  100  help
+  101  exit
+  102  logout
+  103  ls
+  104  cd sampleProject
+  105  cd
+  106  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+  107  ls
+  108  ls spotify-2023.csv
+  109  cat spotify-2023.csv 
+  110  :setnumber
+  111  :set number
+  112  vim
+  113  vim help
+  114  bim help
+  115  vim spotify-2023.csv 
+  116  vi spotify-2023.csv 
+  117  fvffvvffvfvfvvfvf
+  118  vi spotify-2023.csv 
+  119  logout
+  120  vi spotify-2023.csv 
+  121  logout
+  122  exit
+  123  vi
+  124  ls
+  125  cd sampleProject/
+  126  ls
+  127  mv cmds.log Worksheet1
+  128  gs
+  129  gso
+  130  git status
+  131  git commit
+  132  git push
+  133  git status
+  134  git add
+  135  git add .
+  136  get commit
+  137  git commit
+  138  git commit -m "moving to ws1"
+  139  git push
+  140  git status
+  141  alias
+  142  exit
+  143  logout
+  144  cd
+  145  ls
+  146  passwd
+  147  ls sampleProject
+  148  cd sampleProject
+  149  ls
+  150  mkdir "Worksheet1"
+  151  ls
+  152  history > cmds.log
+  153  git add cmds.log
+  154  git commit -m "command historr for ws1"
+  155  git status
+  156  git push
+  157  git status
+  158  git help
+  159  sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+  160  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  161  apt install zsh
+  162  ls
+  163  man date
+  164  export DATETIME = 'date'
+  165  export DATETIME= 'date'
+  166  OUTDIR=out.$DATETIME
+  167  echo $OUTDIR
+  168  date
+  169  man date
+  170  echo "pwd"
+  171  echo 'pwd'
+  172  echo `pwd`
+  173  echo "pwd"
+  174  echo $?
+  175  ls
+  176  git status
+  177  ls -a
+  178  ls -la
+  179  ls .gitconfig
+  180  echo .gitconfig
+  181  cat .gitconfig
+  182  cat .viminfo
+  183  ls -la
+  184  cat .bash_history
+  185  ls -la
+  186  cat .ssh
+  187  ls .ssh
+  188  cat .wget-hsts
+  189  ls -la
+  190  cat .bash_profile
+  191  %
+  192  cat .
+  193  ls .
+  194  ls ..
+  195  cat aarushisp24
+  196  ls ../aarushisp24
+  197  ls -al
+  198  vi .bashrc
+  199  source .bashrc
+  200  ls -al
+  201  cat .bashrc
+  202  lll
+  203  ls .
+  204  lll
+  205  cat .bashrc
+  206  ls -latr
+  207  lll
+  208  ech $USER
+  209  echo "Hello, $USER"
+  210  ogout
+  211  logout
+  212  sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+  213  wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -
+  214  RUNZSH
+  215  exec zsh
+  216  exec zsh -l
+  217  zsh --version
+  218  pwd
+  219  cat /etc/password
+  220  sudo
+  221  grep wheel /etc
+  222  grep wheel /etc/group
+  223  ls -l
+  224  usermod
+  225  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  226  grep "United States"
+  227  ls
+  228  grep "United States" GlobalYoutubeStatistics.csv
+  229  grep "United States" Global Youtube Statistics.csv
+  230  grep "United States" Global_Youtube_Statistics.csv
+  231  grep "United States" 'Global Youtube Statistics.csv'
+  232  grep
+  233  grep --help
+  234  cat 'Global Youtube Statistics.csv'
+  235  ls
+  236  cat GlobalYouTubeStatistics.csv
+  237  ls
+  238  cd 'Global Youtube Statistics.csv'
+  239  ls
+  240  cat --help
+  241  cat GlobalYouTubeStatistics.csv
+  242  cat
+  243  cat 'Global YouTube Statistics.csv' 
+  244  grep "United States" 'Global YouTube Statistics.csv' 
+  245  grep "Music" 'Global YouTube Statistics.csv' 
+  246  grep "Music" 'Global YouTube Statistics.csv' | wc -l >> counts.txt
+  247  grep "Music" 'Global YouTube Statistics.csv' | wc -w >> counts.txt
+  248  nano counts.txt
+  249  history > cmds.log
+  250  cd
+  251  ls
+  252  cd sampleProject
+  253  ls
+  254  mkdir Worksheet2
+  255  ls
+  256  cd Worksheet2
+  257  git add cmds.log
+  258  git add 'cmds.log'
+  259  history > cmds.log
