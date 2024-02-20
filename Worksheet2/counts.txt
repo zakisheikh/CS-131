@@ -1,0 +1,4 @@
+# Number of lines in the "Music" category
+238
+# Total number of words in the "Music" category lines
+830
