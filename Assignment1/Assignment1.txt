@@ -1,0 +1,86 @@
+Script started on 2024-02-26 12:43:51-05:00
+bash-4.4$ ls
+ Assignment1.txt		  help		  spotify-2023.csv
+ cmds.log			  index.html
+'Global YouTube Statistics.csv'   sampleProject
+bash-4.4$ mv [K[K[Ksm[K[Kcd smap[K[K[Km[KampleProject/
+bash-4.4$ ls
+sampleFile.txt	Worksheet1  Worksheet2
+# Question 1
+bash-4.4$ mkdir Assignment1
+# Question 2
+bash-4.4$ echo S[K$She[K[KHELL
+/bin/bash
+# Question 2
+bash-4.4$ ech [Ko #[K$HOME
+/mnt/scratch/SP24_CS131_Jyotika/zakisp24
+# Question 3
+bash-4.4$ echo $UID
+1228
+bash-4.4$ hroups[K[K[K[K[K[Kgroups
+zakisp24 S78
+# Question 4
+bash-4.4$ mkdir myDir
+bash-4.4$ chmod u[K[K[K[K[K[K[Kls
+Assignment1  myDir  sampleFile.txt  Worksheet1	Worksheet2
+bash-4.4$ rm -r [K myDir/
+bash-4.4$ cd Assignment1/
+bash-4.4$ ls
+bash-4.4$ my[Kkdir myDir
+bash-4.4$ ls
+myDir
+bash-4.4$ chj[Kmod u-w myDir
+bash-4.4$ ls -ld myDir/[K[K[K[K[K[K[K
+drwxrwxr-x 3 zakisp24 zakisp24 4096 Feb 26 12:45 .
+bash-4.4$ ls -ld myDir/
+dr-xrwxr-x 2 zakisp24 zakisp24 4096 Feb 26 12:45 myDir/
+# Question 5
+bash-4.4$ mkdir myDir1[K2
+bash-4.4$ mkD[Kdir myDir3
+# Question 6
+bash-4.4$ touch myDir2/myFile.txt
+bash-4.4$ mv myDir2/myFile.txt myDir3/
+bash-4.4$ ls
+myDir  myDir2  myDir3
+bash-4.4$ cd myDir3
+bash-4.4$ ls
+myFile.txt
+bash-4.4$ cd ..
+bash-4.4$ ls
+myDir  myDir2  myDir3
+bash-4.4$ cd..
+bash: cd..: command not found
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1  sampleFile.txt  Worksheet1  Worksheet2
+# Question 6
+bash-4.4$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       32016       20535        3548       18816       34345
+Swap:          4119           0        4119
+# Question 9
+bash-4.4$ cat /etc/os-release 
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+# Question 10
+bash-4.4$ ls - l[K[Kl .[K/etc/os-release 
+lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+bash-4.4$ exit
+exit
+
+Script done on 2024-02-26 12:48:19-05:00
