@@ -620,20 +620,20 @@
   620  ibmvm
   621  exit
   622  logout
+### Task 1
   623  find /etc -type f > one.txt 2> two.txt
   624  cat one.txt 
   625  cat two.txt 
+### Task 2
   626  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
   627  cut -d',' -f20,21 "Global YouTube Statistics.csv" | tail -n +2 | sort | uniq -c | sort -nr | head -3 | awk '{print $3, $2, "with", $1, "channels"}'
+### Task 3
   628  ps -u $USER
-  629  ps -p 1
-  630  ps aux
-  631  exit
-  632  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
-  633  cut -d',' -f20,21 "Global YouTube Statistics.csv" | tail -n +2 | sort | uniq -c | sort -nr | head -3 | awk '{print $3, $2, "with", $1, "channels"}'
-  634  ps -u $USER
-  635  vi file.txt
-  636  ps -u $USER
-  637  ps -p 1
-  638  ps aux
-  639  history > cmds.log
+### Task 4 (not sure why second terminal cmds didnt show up)
+  629  ps -u $USER
+  630  ps -u $USER
+### Task 5
+  631  ps -p 1
+### Task 6
+  632  ps aux
+  633  exit
