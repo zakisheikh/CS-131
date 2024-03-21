@@ -1,3 +1,5 @@
+#### Task 1
   745  cut -d ',' -f 8,16 Global\ YouTube\ Statistics.csv | grep -E "United States|United Kingdom|India" | sort -t ',' -k 2 -n -r > ws3.txt
+#### Task 2
   746  cut -d ',' -f 5,3 Global\ YouTube\ Statistics.csv | grep -E "Sports|Education|Entertainment" | sort -t ',' -k 2 -n -r >> ws3.txt
   747  history > sampleProject/Worksheet3/cmds.log 
