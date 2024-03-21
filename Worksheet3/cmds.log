@@ -1,0 +1,9 @@
+    1  script ws3.txt
+    2  ls
+    3  mv ws3.txt sampleProject/Worksheet3/
+    4  ls
+    5  cd sampleProject/
+    6  ls
+    7  cd Worksheet3
+    8  ls
+    9  history > cmds.log

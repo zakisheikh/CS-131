@@ -1,0 +1,807 @@
+Script started on 2024-03-21 01:38:06-04:00
+bash-4.4$ cut -d ',' -f 8,16 Global\ YouTube\ Statistics.csv | grep -E "United States|United Kingdom|India" | sort -t ',' -k 2 -n -r > ws3.txt
+bash-4.4$ cut -d ',' -f 5,3 Global\ YouTube\ Statistics.csv | grep -E "Sports|Education|Entertainment" | sort -t ',' -k 2 -n -r >> ws3.txt
+bash-4.4$ exit
+exit
+
+Script done on 2024-03-21 01:38:50-04:00
+000
+United States,2900000
+United States,2900000
+India,2900000
+United States,2700000
+United States,2700000
+United States,2300000
+India,2200000
+United States,2100000
+India,2100000
+United States,2000000
+United Kingdom,2000000
+India,2000000
+United States,1900000
+United States,1900000
+United States,1800000
+United States,1800000
+United States,1800000
+India,1800000
+India,1800000
+India,1700000
+India,1700000
+India,1700000
+India,1700000
+India,1700000
+India,1700000
+United States,1600000
+United States,1600000
+India,1600000
+India,1600000
+United States,1500000
+India,1500000
+India,1500000
+India,1500000
+India,1400000
+India,1400000
+India,1400000
+India,1400000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United Kingdom,1300000
+India,1300000
+India,1300000
+United States,1200000
+India,1200000
+India,1200000
+India,1200000
+United States,1100000
+United States,1100000
+United States,1100000
+United States,1100000
+United States,1100000
+United States,1100000
+United States,1100000
+India,1100000
+India,1100000
+India,1100000
+India,1100000
+India,1100000
+United States,1000000
+United States,1000000
+United Kingdom,1000000
+India,1000000
+India,1000000
+United Kingdom,979700
+United States,976400
+India,968700
+United States,954500
+India,945200
+India,942900
+United States,936900
+India,936000
+India,931000
+India,928100
+United States,915800
+India,909400
+United States,886800
+India,868400
+India,855000
+India,850600
+United States,843800
+India,843600
+United States,822400
+United Kingdom,810900
+United States,796100
+United Kingdom,795500
+United States,791800
+United States,782000
+United States,780800
+India,778400
+United States,755800
+United States,755300
+United States,748000
+India,743900
+United States,742800
+India,739900
+United States,739800
+United States,735500
+India,723800
+United States,721600
+India,720100
+India,719600
+India,716900
+United States,711100
+United States,710400
+United States,703400
+United States,701000
+United States,700400
+United States,679900
+United States,679500
+India,671600
+United Kingdom,670800
+United States,659600
+United States,656900
+United States,647600
+India,642800
+United States,640900
+United States,640900
+India,639000
+United States,634400
+United States,620900
+India,616200
+United States,613100
+United States,611300
+United States,606800
+United States,606800
+India,605900
+India,599200
+United States,597000
+United States,587400
+United States,577800
+United States,572700
+India,567400
+India,566800
+United States,564800
+United States,561300
+United States,561000
+United States,557800
+United States,557300
+India,556500
+India,556500
+United Kingdom,548400
+India,544300
+United States,542300
+United States,537600
+United States,537000
+India,534300
+United States,533400
+United States,532800
+United States,528400
+India,524800
+India,522900
+United States,513800
+United Kingdom,512200
+United States,511900
+United States,510000
+United States,509300
+United States,496700
+United States,491700
+United States,491700
+United States,479200
+United States,477600
+United States,472900
+United States,463200
+United States,458700
+United States,457000
+India,454300
+United States,454200
+India,453700
+United States,451900
+India,450600
+United States,448400
+United States,446000
+United States,445000
+United States,443100
+India,439400
+India,439300
+India,439300
+India,436500
+India,436100
+United States,430100
+India,423900
+United States,423100
+India,422800
+United States,420500
+United States,420500
+United States,414500
+United States,412700
+United States,412000
+United States,410500
+India,409700
+United Kingdom,409600
+India,409400
+India,408900
+India,405400
+India,398700
+United States,398600
+United States,395300
+United States,395100
+United States,393400
+India,393300
+United States,392700
+United States,392200
+United States,391000
+United States,389700
+United States,389100
+United States,381000
+India,380700
+India,379400
+United States,377000
+United Kingdom,375100
+India,372700
+United States,370400
+United States,368900
+United States,365000
+United States,361800
+India,359100
+United States,358300
+United States,356400
+India,356000
+United States,355800
+United States,354600
+United States,354500
+United States,352000
+United Kingdom,345800
+India,345800
+United Kingdom,343100
+United Kingdom,339000
+United States,327500
+United States,326600
+United States,320200
+United States,317600
+India,314800
+United Kingdom,314700
+India,314600
+United Kingdom,312600
+United States,308200
+United States,303100
+India,297900
+United States,292100
+India,291600
+India,281600
+United States,273400
+United States,272600
+United States,267500
+United Kingdom,265100
+India,261500
+United States,260300
+India,258900
+United States,255700
+United States,253800
+United States,253200
+United States,244800
+United States,242600
+India,239700
+United Kingdom,238500
+India,236800
+United Kingdom,235400
+India,234100
+United States,233400
+United States,232500
+India,231200
+United States,227600
+United States,226500
+United Kingdom,226100
+United States,225400
+United Kingdom,222600
+United States,221800
+United States,221500
+United Kingdom,217200
+United Kingdom,216800
+United Kingdom,214400
+United States,212800
+United States,212700
+India,210700
+United States,209300
+United States,207300
+United States,206700
+United States,206600
+India,205300
+India,205200
+United Kingdom,204500
+United States,203700
+United States,200800
+India,199400
+United States,199300
+India,198600
+United States,197600
+India,195000
+India,193800
+United States,193100
+United States,186400
+United States,185900
+United States,183300
+United States,183200
+United States,182800
+United States,182600
+United States,180400
+United States,178200
+United Kingdom,177700
+United States,176600
+United States,175500
+India,174700
+United States,173600
+United States,173600
+United States,172500
+India,172500
+United States,170800
+United States,170200
+United States,167200
+United Kingdom,166700
+India,165200
+United States,164400
+United States,160400
+United Kingdom,156900
+United Kingdom,154400
+India,152700
+India,150600
+United States,150500
+India,148700
+United States,147200
+United Kingdom,146700
+United States,145400
+United States,145400
+United States,142100
+United Kingdom,141200
+United States,140100
+United Kingdom,139000
+India,137800
+India,133900
+United Kingdom,131300
+India,128400
+United States,128000
+India,127300
+United States,123900
+India,123900
+India,123000
+United States,122700
+United States,119800
+United States,119500
+United States,118900
+India,118800
+United States,117500
+United States,116700
+United States,115100
+India,114700
+India,114400
+India,111900
+United Kingdom,111800
+India,111500
+United Kingdom,111200
+United States,109500
+United States,109500
+United States,108100
+United States,107500
+United States,106700
+United States,105700
+India,104700
+United States,103600
+United States,103000
+India,102400
+India,101300
+United States,101100
+India,98900
+United States,98800
+United States,97500
+India,96200
+India,96000
+India,95600
+United States,92800
+India,92100
+United States,91900
+United States,90900
+United States,89200
+India,89000
+India,88900
+United States,87800
+United States,87200
+United States,86300
+United States,84400
+India,84200
+India,81100
+India,81100
+United States,80000
+United States,75900
+United States,74200
+India,74100
+United States,72100
+United States,71800
+United States,69900
+India,69100
+United States,69000
+United States,67100
+United States,64500
+United States,63900
+United States,62800
+United States,61400
+United States,61100
+United States,59400
+United States,58600
+United States,58000
+United States,57700
+India,57100
+India,55600
+United States,53000
+India,52600
+United States,51600
+United States,47800
+India,46000
+India,44300
+United States,44200
+United States,43600
+United States,43400
+United States,43200
+United States,43100
+India,43100
+United Kingdom,40900
+United States,39700
+United States,39600
+United States,36400
+United States,34600
+United States,34500
+United Kingdom,33900
+United States,33500
+India,30500
+United States,28700
+United States,24500
+United States,23800
+India,23700
+United Kingdom,21800
+United States,19100
+United States,18400
+United States,16900
+United States,15100
+United States,14200
+United Kingdom,12300
+United States,10900
+United States,9900
+United States,8000
+United States,7700
+United States,7000
+United States,6500
+United States,6300
+India,5600
+United States,5300
+United States,5300
+India,4200
+India,3400
+United States,1900
+United States,1800
+United States,1700
+United Kingdom,268
+United States,152
+United States,150
+United States,119
+United States,110
+United States,83
+United States,65
+United States,25
+United Kingdom,6
+India,4
+United Kingdom,1
+United States,0.99
+United States,0.4
+United States,0.25
+United States,0.09
+United States,0.06
+United States,0.05
+India,0.04
+India,0.03
+United States,0.02
+United States,0.01
+India,0.01
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United Kingdom,0
+India,0
+India,0
+India,0
+India,0
+India,0
+98900000,Entertainment
+96000000,Sports
+70500000,Entertainment
+68200000,Education
+65900000,Education
+59500000,Sports
+56400000,Entertainment
+53300000,Education
+52200000,Education
+47500000,Entertainment
+47400000,Entertainment
+46800000,Entertainment
+45500000,Entertainment
+45200000,Entertainment
+44700000,Entertainment
+44600000,Entertainment
+43600000,Entertainment
+43200000,Entertainment
+42400000,Entertainment
+41900000,Entertainment
+40900000,Education
+40300000,Entertainment
+39200000,Education
+39000000,Entertainment
+38200000,Entertainment
+37600000,Entertainment
+37500000,Entertainment
+35500000,Entertainment
+35200000,Entertainment
+34900000,Education
+34000000,Entertainment
+33500000,Entertainment
+33400000,Education
+32800000,Education
+32700000,Entertainment
+32000000,Entertainment
+31900000,Entertainment
+31700000,Entertainment
+31600000,Entertainment
+31400000,Entertainment
+31200000,Entertainment
+30400000,Entertainment
+30300000,Entertainment
+30200000,Entertainment
+30100000,Education
+29200000,Entertainment
+28900000,Education
+28400000,Entertainment
+28300000,Entertainment
+28300000,Education
+28200000,Entertainment
+27300000,Entertainment
+27100000,Entertainment
+27100000,Entertainment
+26900000,Entertainment
+26700000,Entertainment
+26400000,Entertainment
+26300000,Entertainment
+26200000,Entertainment
+26100000,Entertainment
+25000000,Entertainment
+24800000,Entertainment
+24800000,Entertainment
+24400000,Entertainment
+24300000,Entertainment
+24200000,Entertainment
+24100000,Entertainment
+23900000,Entertainment
+23900000,Entertainment
+23800000,Entertainment
+23600000,Entertainment
+23600000,Entertainment
+23600000,Entertainment
+23300000,Entertainment
+23200000,Entertainment
+23000000,Entertainment
+23000000,Entertainment
+23000000,Entertainment
+22900000,Education
+22800000,Entertainment
+22700000,Entertainment
+22200000,Entertainment
+22000000,Entertainment
+21900000,Entertainment
+21600000,Entertainment
+21300000,Entertainment
+21300000,Entertainment
+21300000,Entertainment
+21200000,Entertainment
+21200000,Education
+21000000,Entertainment
+21000000,Entertainment
+21000000,Entertainment
+20900000,Entertainment
+20900000,Education
+20800000,Education
+20700000,Sports
+20700000,Entertainment
+20700000,Entertainment
+20600000,Entertainment
+20500000,Entertainment
+20500000,Entertainment
+20400000,Entertainment
+20400000,Entertainment
+20300000,Entertainment
+20300000,Education
+20300000,Education
+20200000,Entertainment
+20200000,Entertainment
+20200000,Education
+20100000,Entertainment
+20100000,Entertainment
+20100000,Entertainment
+20000000,Entertainment
+20000000,Entertainment
+19700000,Entertainment
+19700000,Entertainment
+19600000,Entertainment
+19500000,Entertainment
+19400000,Sports
+19400000,Entertainment
+19200000,Entertainment
+19100000,Entertainment
+19000000,Entertainment
+19000000,Education
+18900000,Education
+18800000,Entertainment
+18800000,Entertainment
+18800000,Education
+18700000,Entertainment
+18600000,Entertainment
+18400000,Entertainment
+18300000,Entertainment
+18300000,Entertainment
+18100000,Entertainment
+18100000,Entertainment
+18100000,Entertainment
+18100000,Education
+18000000,Sports
+18000000,Entertainment
+17900000,Entertainment
+17900000,Entertainment
+17700000,Entertainment
+17500000,Entertainment
+17500000,Entertainment
+17400000,Entertainment
+17300000,Entertainment
+17200000,Education
+17200000,Education
+17100000,Entertainment
+17000000,Entertainment
+16900000,Entertainment
+16900000,Entertainment
+16800000,Entertainment
+16800000,Entertainment
+16800000,Entertainment
+16700000,Entertainment
+16700000,Entertainment
+16600000,Entertainment
+16600000,Entertainment
+16600000,Entertainment
+16600000,Entertainment
+166000000,Entertainment
+16500000,Entertainment
+16500000,Entertainment
+16400000,Sports
+16400000,Entertainment
+16400000,Entertainment
+16400000,Entertainment
+16400000,Entertainment
+16300000,Entertainment
+16300000,Entertainment
+16200000,Entertainment
+16200000,Entertainment
+16200000,Entertainment
+162000000,Education
+16100000,Entertainment
+16100000,Entertainment
+16100000,Entertainment
+16100000,Entertainment
+16000000,Education
+15800000,Education
+15700000,Entertainment
+15600000,Entertainment
+15600000,Entertainment
+15500000,Entertainment
+15500000,Entertainment
+15500000,Entertainment
+15500000,Education
+15300000,Sports
+15300000,Entertainment
+15300000,Education
+15200000,Entertainment
+15200000,Entertainment
+15200000,Entertainment
+15200000,Entertainment
+15100000,Entertainment
+15100000,Education
+15000000,Entertainment
+15000000,Entertainment
+15000000,Entertainment
+15000000,Entertainment
+15000000,Entertainment
+15000000,Education
+14900000,Entertainment
+14900000,Entertainment
+14900000,Entertainment
+14900000,Entertainment
+14900000,Entertainment
+14800000,Education
+14700000,Entertainment
+14700000,Entertainment
+14700000,Entertainment
+14700000,Entertainment
+14700000,Entertainment
+14700000,Education
+14700000,Education
+14600000,Entertainment
+14500000,Entertainment
+14500000,Entertainment
+14500000,Entertainment
+14500000,Entertainment
+14500000,Entertainment
+14400000,Entertainment
+14400000,Entertainment
+14400000,Entertainment
+14400000,Entertainment
+14400000,Entertainment
+14200000,Entertainment
+14200000,Entertainment
+14200000,Entertainment
+14200000,Education
+14100000,Sports
+14100000,Entertainment
+14100000,Entertainment
+14100000,Entertainment
+14100000,Entertainment
+14000000,Entertainment
+14000000,Entertainment
+13900000,Entertainment
+13900000,Entertainment
+13900000,Entertainment
+13900000,Education
+13800000,Entertainment
+13700000,Entertainment
+13700000,Entertainment
+13700000,Education
+13600000,Sports
+13600000,Entertainment
+13600000,Education
+13500000,Entertainment
+13500000,Entertainment
+13500000,Entertainment
+13500000,Entertainment
+13400000,Entertainment
+13300000,Entertainment
+13300000,Entertainment
+13300000,Entertainment
+13300000,Entertainment
+13200000,Entertainment
+13200000,Entertainment
+13200000,Entertainment
+13200000,Entertainment
+13200000,Entertainment
+13200000,Education
+13100000,Entertainment
+13100000,Entertainment
+13100000,Entertainment
+13000000,Entertainment
+13000000,Entertainment
+13000000,Entertainment
+13000000,Entertainment
+13000000,Entertainment
+12900000,Sports
+12900000,Entertainment
+12900000,Entertainment
+12900000,Entertainment
+12900000,Education
+12800000,Entertainment
+12800000,Entertainment
+12800000,Education
+12700000,Entertainment
+12700000,Entertainment
+12700000,Entertainment
+12500000,Entertainment
+12500000,Entertainment
+12500000,Entertainment
+12500000,Entertainment
+12500000,Entertainment
+12500000,Entertainment
+12500000,Entertainment
+12500000,Education
+12400000,Entertainment
+12400000,Entertainment
+12400000,Education
+12400000,Education
+12300000,Sports
