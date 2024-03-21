@@ -6,6 +6,7 @@ exit
 
 Script done on 2024-03-21 01:38:50-04:00
 000
+#### Task 1
 United States,2900000
 United States,2900000
 India,2900000
@@ -508,6 +509,7 @@ India,0
 India,0
 India,0
 India,0
+#### Task 2
 98900000,Entertainment
 96000000,Sports
 70500000,Entertainment
