@@ -1,0 +1,55 @@
+Script started on 2024-05-07 01:23:32-04:00
+bash-4.4$ mkdir[K[K[K[K[Kmkdir -p "Worksheet 5/United States"
+bash-4.4$ nano process_)[Kdata.sjh[K[Kh
+[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;91H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.8                                                                            process_data.sh                                                                                      [1;192H(B[m[42d(B[0;7m^G(B[m Get Help	 (B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is	   (B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[42;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[43d(B[0;7m^X(B[m Exit[43;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace	   (B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Linter     (B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[43;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next[43;171H(B[0;7m^F(B[m Forward[41d[3d[39;49m(B[m[?12l[?25h[?25l[1;184H(B[0;7mModified[41d(B[m[K[1;192H[3d[36m# Initialize counters for each category[4d[39m(B[mmusic_count[32m=[39m(B[m0[5dentertainment_count[32m=[39m(B[m0[6d[?12l[?25h[?25lgaming_count[32m=[39m(B[m0[7d[?12l[?25h[?25lcomedy_count[32m=[39m(B[m0[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[36m# Loop through each line of the dataset[10d[39m(B[m$t_30_days lowest_monthly_earnings highest_monthly_earnings lowest_year[?12l[?25h[?25l[32mwhile[39m(B[m IFS[32m=[39m(B[m, [32mread(B[0;1m[35m -r[39m(B[m rank youtuber subscribers video_views category title uploads country abbreviation channel_type video_views_rank country_rank channel_type_rank video_views_for_the_last_30_d$[11;4H[36m # Check if the line contains "United State[39m(B[m[?12l[?25h[?25l[11;34H(B[0;1m[33m"United States"[12d[39m(B[m[?12l[?25h[?25l    [32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$country"[39m(B[m [32m=[39m(B[m (B[0;1m[33m"United States"[39m(B[m [32m];[39m(B[m [32mthen[13d[39m(B[m[?12l[?25h[?25l[8G[36m # Increment the counter[39m[42m [49m(B[m[?12l[?25h[?25l[36m for the respective category[14;9H[32mcase[39m(B[m (B[0;1m[33m"$category"[39m(B[m [32min[15d[39m(B[m[?12l[?25h[?25l[15;13HMusic[32m)[16;17H[39m(B[mmusic_count[32m=$(([39m(B[mmusic_count + 1[32m))[17;17H;;[18d[39m(B[m[?12l[?25h[?25l[18;13HEntertainment[32m)[19d[39m(B[m[?12l[?25h[?25l[19;17Hentertainment_count[32m=$(([39m(B[mentertainment_count + 1[32m))[20d[39m(B[m[?12l[?25h[?25l[20;17H[32m;;[21d[39m(B[m[?12l[?25h[?25l[21;13HGaming[32m)[22d[39m(B[m[?12l[?25h[?25l[22;17Hgaming_count[32m=$(([39m(B[mgaming_count + 1[32m))[23d[39m(B[m[?12l[?25h[?25l[23;17H[32m;;[24d[39m(B[m[?12l[?25h[?25l[24;13HComedy[32m)[25d[39m(B[m[?12l[?25h[?25l[25;17Hcomedy_count[32m=$(([39m(B[mcomedy_count + 1[32m))[26d[39m(B[m[?12l[?25h[?25l[26;17H[32m;;[27d[39m(B[m[?12l[?25h[?25l[27;13H*[32m)[28d[39m(B[m[?12l[?25h[?25l[28;16H[36m # Ignore other categories[29d[39m(B[m[?12l[?25h[?25l[29;17H[32m;;[30d[39m(B[m[?12l[?25h[?25l[30;9H[32mesac[31d[39m(B[m[?12l[?25h[?25l[8G[42m[1K[32d[49m(B[m[?12l[?25h[?25l[8G[36m # Redirect the entry to its respective category file[33d[39m(B[m[?12l[?25h[?25l[33;9H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$rank,$youtuber,$subscribers,$video_views,$category,$title,$uploads,$country,$abbreviation,$channel_type,$video_views_rank,$country_rank,$channel_type_rank,$video_views_for_the_l[39m(B[m$[34;1H[?12l[?25h[?25l    [32mfi[35d[39m(B[m[?12l[?25h[?25l[32mdone[39m(B[m [32m<[39m(B[m (B[0;1m[33m'Global YouTube Statistics.csv'[37d[39m(B[m[?12l[?25h[?25l[36m# Output the counts to ws5.txt[38d[39m(B[m[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Music: $music_count"[39m(B[m [32m>>[39m(B[m ws5.txt[39d[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Entertainment: $entertainment_count"[39m(B[m [32m>>[39m(B[m ws5.txt[40d[?12l[?25h[?25l7[3;41r8[41d[19S[1;43r[21;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Gaming: $gaming_count"[39m(B[m [32m>>[39m(B[m ws5.txt[22d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Comedy: $comedy_count"[39m(B[m [32m>>[39m(B[m ws5.txt[23d[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                                                                                    [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [43;17H(B[0;7m^C(B[m Cancel[K[41;63H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;49H(B[0;7mM-D(B[m DOS Format[42;97H(B[0;7mM-A(B[m Append[42;145H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel	         [43;49H(B[0;7mM-M(B[m Mac Format[43;97H(B[0;7mM-P(B[m Prepend[43;145H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: process_data.sh                          (B[m[41;36H[?12l[?25h[?25l[K[1;192H[1;184H(B[0;7m        (B[m[41;88H(B[0;7m[ Wrote 40 lines ](B[m[J[43;193H[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>bash-4.4$ cat process_data.sh 
+# Initialize counters for each category
+music_count=0
+entertainment_count=0
+gaming_count=0
+comedy_count=0
+
+# Loop through each line of the dataset
+while IFS=, read -r rank youtuber subscribers video_views category title uploads country abbreviation channel_type video_views_rank country_rank channel_type_rank video_views_for_the_last_30_days lowest_monthly_earnings highest_monthly_earnings lowest_yearly_earnings highest_yearly_earnings subscribers_for_last_30_days created_year created_month created_date Gross_tertiary_education_enrollment Population Unemployment_rate Urban_population Latitude Longitude; do
+    # Check if the line contains "United States"
+    if [ "$country" = "United States" ]; then
+        # Increment the counter for the respective category
+        case "$category" in
+            Music)
+                music_count=$((music_count + 1))
+                ;;
+            Entertainment)
+                entertainment_count=$((entertainment_count + 1))
+                ;;
+            Gaming)
+                gaming_count=$((gaming_count + 1))
+                ;;
+            Comedy)
+                comedy_count=$((comedy_count + 1))
+                ;;
+            *)
+                # Ignore other categories
+                ;;
+        esac
+        
+        # Redirect the entry to its respective category file
+        echo "$rank,$youtuber,$subscribers,$video_views,$category,$title,$uploads,$country,$abbreviation,$channel_type,$video_views_rank,$country_rank,$channel_type_rank,$video_views_for_the_last_30_days,$lowest_monthly_earnings,$highest_monthly_earnings,$lowest_yearly_earnings,$highest_yearly_earnings,$subscribers_for_last_30_days,$created_year,$created_month,$created_date,$Gross_tertiary_education_enrollment,$Population,$Unemployment_rate,$Urban_population,$Latitude,$Longitude" >> "Worksheet 5/United States/$category.txt"
+    fi
+done < 'Global YouTube Statistics.csv'
+
+# Output the counts to ws5.txt
+echo "Music: $music_count" >> ws5.txt
+echo "Entertainment: $entertainment_count" >> ws5.txt
+echo "Gaming: $gaming_count" >> ws5.txt
+echo "Comedy: $comedy_count" >> ws5.txt
+
+bash-4.4$ chmode[K +x process_data.sh 
+bash-4.4$ ./process_data.sh 
+bash-4.4$ cat ws5.txt 
+Music: 73
+Entertainment: 68
+Gaming: 26
+Comedy: 22
+bash-4.4$ exit
+exit
+
+Script done on 2024-05-07 01:24:45-04:00
